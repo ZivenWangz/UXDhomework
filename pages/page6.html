@@ -1,0 +1,49 @@
+<!-- pages/page6.html -->
+<div class="page" id="page6">
+    <div class="background-animation"></div> <!-- 背景动画 -->
+    <div class="content-container">
+        <!-- Header Section -->
+        <header>
+            <button id="back-to-home" aria-label="Back to Home">Back to Home</button>
+            <h1 class="main-title">Contact</h1>
+        </header>
+
+        <!-- QR Codes Section -->
+        <div class="qr-codes-section">
+            <h2>Connect with Us</h2>
+            <div class="qr-codes">
+                <!-- Weibo QR Code -->
+                <div class="qr-code">
+                    <img src="../images/page6_1.png" alt="Weibo QR Code" class="qr-image" loading="lazy">
+                    <p>Follow us on Weibo</p>
+                </div>
+                <!-- Douyin QR Code -->
+                <div class="qr-code">
+                    <img src="../images/page6_2.png" alt="Douyin QR Code" class="qr-image" loading="lazy">
+                    <p>Follow us on Douyin</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Message Box Section -->
+        <div class="message-box-section">
+            <h2>Leave a Message</h2>
+            <form id="message-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Your message"></textarea>
+                </div>
+                <button type="submit" class="submit-button">Submit</button>
+                <p id="form-response" class="form-response"></p>
+            </form>
+        </div>
+    </div>
+</div>
